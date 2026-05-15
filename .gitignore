@@ -16,3 +16,9 @@ frontend/.env.local
 dist
 .DS_Store
 *.log
+
+# Claude Code internal files
+.claude/
+
+# Office temp lock files
+~$*

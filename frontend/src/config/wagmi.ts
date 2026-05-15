@@ -12,4 +12,5 @@ export const wagmiConfig = getDefaultConfig({
   projectId: WALLETCONNECT_PROJECT_ID,
   chains: [hardhat, sepolia],
   ssr: false,
+  pollingInterval: 1_000, // check for new blocks every 1 s (fast enough for live demos)
 });
